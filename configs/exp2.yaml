@@ -1,0 +1,23 @@
+alpha: 1
+gamma: 3
+Ts: 0.01   
+T_end: 150
+
+dwell_times: [0.5,0.5]
+
+# observer
+hv: 2 # gain associated with velocity in the H matrix of observar
+threshold: 0.95
+
+# adversarial agents
+Adversaries:
+    ID: [32,  0,  3, 15, 18, 28, 45, 59, 72]
+
+DoS:
+  n: 600 # number of DoS trials
+  p: 0.4 # set success probability
+
+
+
+
+
